@@ -104,11 +104,18 @@ header{
 
 /* Education
 --------------------------------*/
-.education{
+/**.education{
 	background-image: url("https://github.com/lasithahemajith/lasithahemajith.github.io/sharon-mccutcheon-unsplash.jpg");
 	background-size: cover;
 	background-position: top right;
 	padding-bottom: 20px;
+}  */
+.education { 
+  background: url("https://github.com/lasithahemajith/lasithahemajith.github.io/sharon-mccutcheon-unsplash.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .education p{
 	width: 60%;
